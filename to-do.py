@@ -20,5 +20,7 @@ elif arguments.__contains__("-a"):
     # add new items
     arguments.pop(0)
 
+    new_to-dos = 
+
     with open("to-do.json", "w", "UTF-8") as data:
-        
+
