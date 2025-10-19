@@ -16,11 +16,15 @@ arguments.pop(0)
 if not arguments:
     # show to-do list
     print("temporary")
+
 elif arguments.__contains__("-a"):
     # add new items
     arguments.pop(0)
-
-    new_to-dos = 
+    
+    # will probably remove
+    new_to-dos = dict()
+    for arguments in arguments:
+        
 
     with open("to-do.json", "w", "UTF-8") as data:
 
